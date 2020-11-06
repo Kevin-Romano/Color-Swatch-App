@@ -1,0 +1,51 @@
+{
+  "name": "colour-swatch",
+  "homepage": "https://noho-glitch.github.io/Colour-Swatch/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.6",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "chroma-js": "^2.1.0",
+    "emoji-mart": "^3.0.0",
+    "rc-slider": "^9.2.4",
+    "react": "^16.13.1",
+    "react-color": "^2.18.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.1",
+    "react-material-ui-form-validator": "^2.0.10",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-sortable-hoc": "^1.11.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
